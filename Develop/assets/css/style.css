@@ -1,21 +1,31 @@
+/* Universal formatting of boxes, padding, and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body formatting */
 body {
+    /* Changes body background color to #d9dcd6 */
     background-color: #d9dcd6;
 }
 
+/* Header formatting */
 .header {
+    /* Changes header padding to 20px  */
     padding: 20px;
+    /* Updates font family for header class to Trebuchet MS */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Changes background color to #2a607c */
     background-color: #2a607c;
+    /* Changes header font color to white */
     color: #ffffff;
 }
 
+/* Formatting changes to Header class's h1 */
 .header h1 {
+    /* Displays header elements inline */
     display: inline-block;
     font-size: 48px;
 }
