@@ -48,34 +48,53 @@ body {
     font-size: 20px;
 }
 
+/* Formatting to class header nav ul */
 .header nav ul {
+    /* Removing the list style (bullets) from view */
     list-style-type: none;
 }
 
+/* Formatting to class header nav ul li (list elements) */
 .header nav ul li {
+    /* Setting display settings of list items to inline-block (same line, in a block horizontally) */
     display: inline-block;
+/* Moving list elements margin 25px to the left */
     margin-left: 25px;
 }
 
+/* Formatting a element (links) */
 a {
+    /* Font color of links = white */
     color: #ffffff;
+    /* No font decoration of links */
     text-decoration: none;
 }
 
+/* Formatting paragraphs */
 p {
+    /* Font size of paragraphs = 16px */
     font-size: 16px;
 }
 
+/* Formatting hero image */
 .hero {
+    /* Hero image is 800px in height */
     height: 800px;
+    /* Hero image is 100% width of webpage */
     width: 100%;
+    /* Hero image has a bottom margin of 25px */
     margin-bottom: 25px;
+    /* Hero image is located at the following URL */
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /* Hero image background size is cover */
     background-size: cover;
+    /* Hero image position is centered */
     background-position: center;
 }
 
+/* Formatting for float-left class elements */
 .float-left {
+    
     float: left;
     margin-right: 25px;
 }
