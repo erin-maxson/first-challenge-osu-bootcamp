@@ -94,7 +94,7 @@ p {
 
 /* Formatting for float-left class elements */
 .float-left {
-    
+
     float: left;
     margin-right: 25px;
 }
