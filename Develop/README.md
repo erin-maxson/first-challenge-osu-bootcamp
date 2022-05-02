@@ -2,11 +2,9 @@
 
 ## Description
 
-The goal of this project is to refactor the code that was provided to make it more accessible for those with disabilities. Using HTML semantics and CSS consolidation, I was able to achieve a higher accessibility by providing alt tags and minimizing code lines in CSS.
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The goal of this project was to refactor the code that was provided to make it more accessible for those with disabilities. Using HTML semantics and CSS consolidation, I was able to achieve a higher accessibility by providing alt tags and minimizing code lines in CSS.
+
+This problem solves the issue of accessibility for those who cannot see and use technology to read the information on their screens. I learned that creating a more logical, semantic HTML document makes it easier for those with disabilities to understand the flow of the webpage. Outside of HTML, I learned that CSS could be consolidated into fewer lines therefore making it more readable for other web developers and myself when making updates to the code.
 
 ## Table of Contents (Optional)
 
@@ -19,7 +17,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Please download all files related to this project. Once downloaded, open a code viewer or one of the files provided. Select index.html to see the frontend code (visualized webpage) or view the code in the backend through the Assets folder that leads to the CSS file. You can open this in your terminal, bash, or other text file application.
 
 ## Usage
 
@@ -33,11 +31,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+I credit myself for refactoring this code down to a more accessible level. OSU Bootcamp provided the initial code for me to work on.
 
 ## License
 
