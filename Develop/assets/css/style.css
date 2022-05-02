@@ -94,16 +94,21 @@ p {
 
 /* Formatting for float-left class elements */
 .float-left {
-
+    /* Formatting element to float to the left */
     float: left;
+    /* Float-left class elements have margin of 25px to the right */
     margin-right: 25px;
 }
 
+/* Formatting for float-right class elements */
 .float-right {
+    /* Formatting element to float to the right */
     float: right;
+    /* Float-right class elements have margin of 25px to the left */
     margin-left: 25px;
 }
 
+/*  */
 .content {
     width: 75%;
     display: inline-block;
