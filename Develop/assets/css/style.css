@@ -108,13 +108,17 @@ p {
     margin-left: 25px;
 }
 
-/*  */
+/* Formatting the content selector elements */
 .content {
+    /* Formatting content selector elements to a width that is 75% of the webpage */
     width: 75%;
+    /* Displaying content selector elements as inline-block */
     display: inline-block;
+    /* Adding a margin of 20px to the left of content selector elements */
     margin-left: 20px;
 }
 
+/* Formatting elements under benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
