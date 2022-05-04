@@ -166,8 +166,3 @@ Mozilla’s code of conduct enforcement ladder.
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
-
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
