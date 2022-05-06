@@ -19,16 +19,6 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 Please download all files related to this project. Once downloaded, open a code viewer or one of the files provided. Select index.html to see the frontend code (visualized webpage) or view the code in the backend through the Assets folder that leads to the CSS file. You can open this in your terminal, bash, or other text file application.
 
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
 ## Credits
 
 I credit myself for refactoring this code down to a more accessible level. OSU Bootcamp provided the initial code for me to work on.
@@ -66,7 +56,7 @@ SOFTWARE.
 
 ## Features
 
-If your project has a lot of features, list them here.
+No features here, just code refactory.
 
 ## How to Contribute
 
