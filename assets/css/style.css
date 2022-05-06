@@ -1,0 +1,218 @@
+/* Universal formatting of boxes, padding, and margin */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Body formatting */
+body {
+    /* Changes body background color to #d9dcd6 */
+    background-color: #d9dcd6;
+}
+
+/* Header formatting */
+.header {
+    /* Changes header padding to 20px  */
+    padding: 20px;
+    /* Updates font family for header class to Trebuchet MS */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Changes background color to #2a607c */
+    background-color: #2a607c;
+    /* Changes header font color to white */
+    color: #ffffff;
+}
+
+/* Formatting changes to Header class's h1 */
+.header h1 {
+    /* Displays header elements inline */
+    display: inline-block;
+    /* Displays header font at 48px */
+    font-size: 48px;
+}
+
+/* Formatting for header and seo class for h1 */
+.header h1 .seo {
+    /* Changes color of "seo" to grey/#d9dc6 */
+    color: #d9dcd6;
+}
+
+/* Formatting to class header and element nav */
+.header nav {
+    /* Addings padding to the top of header nav */
+    padding-top: 15px;
+    /* Moves margin of header nav 20px to the right */
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Formatting to class header nav ul */
+.header nav ul {
+    /* Removing the list style (bullets) from view */
+    list-style-type: none;
+}
+
+/* Formatting to class header nav ul li (list elements) */
+.header nav ul li {
+    /* Setting display settings of list items to inline-block (same line, in a block horizontally) */
+    display: inline-block;
+/* Moving list elements margin 25px to the left */
+    margin-left: 25px;
+}
+
+/* Formatting a element (links) */
+a {
+    /* Font color of links = white */
+    color: #ffffff;
+    /* No font decoration of links */
+    text-decoration: none;
+}
+
+/* Formatting paragraphs */
+p {
+    /* Font size of paragraphs = 16px */
+    font-size: 16px;
+}
+
+/* Formatting hero image */
+.hero {
+    /* Hero image is 800px in height */
+    height: 800px;
+    /* Hero image is 100% width of webpage */
+    width: 100%;
+    /* Hero image has a bottom margin of 25px */
+    margin-bottom: 25px;
+    /* Hero image is located at the following URL */
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    /* Hero image background size is cover */
+    background-size: cover;
+    /* Hero image position is centered */
+    background-position: center;
+}
+
+/* Formatting for float-left class elements */
+.float-left {
+    /* Formatting element to float to the left */
+    float: left;
+    /* Float-left class elements have margin of 25px to the right */
+    margin-right: 25px;
+}
+
+/* Formatting for float-right class elements */
+.float-right {
+    /* Formatting element to float to the right */
+    float: right;
+    /* Float-right class elements have margin of 25px to the left */
+    margin-left: 25px;
+}
+
+/* Formatting the content selector elements */
+.content {
+    /* Formatting content selector elements to a width that is 75% of the webpage */
+    width: 75%;
+    /* Displaying content selector elements as inline-block */
+    display: inline-block;
+    /* Adding a margin of 20px to the left of content selector elements */
+    margin-left: 20px;
+}
+
+/* Formatting elements under benefits class */
+.benefits {
+    /* Adding margin of 20px to the right */
+    margin-right: 20px;
+    /* Adding 20px of padding to the top and bottom */
+    padding: 20px;
+    clear: both;
+    /* Making the elements float to the right if they cannot fit all on one line */
+    float: right;
+    /* benefits class elements are 20% of the width of the webpage */
+    width: 20%;
+    /* height of benefits elements is 100% */
+    height: 100%;
+    /* benefits class have the font family of Gill Sans  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Benefits class elements have a background color of blue #2589bd */
+    background-color: #2589bd;
+}
+/* benefit- classes formatting consolidation */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    /* margin on bottom is 32px */
+    margin-bottom: 32px;
+    /* font color = white */
+    color: #ffffff;
+}
+
+/* benefit- classes h3 consolidation */
+.benefit-lead, .benefit-brand, .benefit-cost h3 {
+    /* margin on bottom is 10px */
+    margin-bottom: 10px;
+    /* text is aligned in the center */
+    text-align: center;
+}
+
+/* benefit- classes images formatting consolidation */
+.benefit-lead img, 
+.benefit-brand img, 
+.benefit-cost img {
+    /* display in block format */
+    display: block;
+    /* margin is 10px on top & bottom, auto margin on left/right */
+    margin: 10px auto;
+    /* max width of content is 150px */
+    max-width: 150px;
+}
+
+/* seo, orm, smm classes formatting consolidation */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    /* margin on bottom is 20px */
+    margin-bottom: 20px;
+    /* padding is 50px */
+    padding: 50px;
+    /* heigh is 300px */
+    height: 300px;
+    /* font fmaily is Gill Sans, etc., */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background color is blue = #0072bb */
+    background-color: #0072bb;
+    /* font color is white */
+    color: #ffffff;
+}
+
+/* seo, orm, smm classes image formatting consolidation */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    /* image height is max 200px */
+    max-height: 200px;
+}
+
+/* seo, orm, smm classes h2 formatting consolidation */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    /* margin on bottom is 20px */
+    margin-bottom: 20px;
+    /* font size is 36px */
+    font-size: 36px;
+}
+
+/* footer class formatting */
+.footer {
+    /* padding = 30px */
+    padding: 30px;
+    /* footer class element is pushed below both left & right floated elements */
+    clear: both;
+    /* font family is Trebuchet MS, etc., */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* text aligns in the center */
+    text-align: center;
+}
+/* footer class h2 formatting */
+.footer h2 {
+    /* font size is 20px */
+    font-size: 20px;
+}
